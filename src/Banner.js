@@ -21,8 +21,8 @@ function Banner() {
     }, []);
 
     function truncate(str, n){
-        return str?.length > 50 ? str.substr(0, n - 1) + "..." : str;
-    }
+        return str?.length > 50 ? str.substr(0, n - 1) + "..." : str
+    };
 
     return (
         <header className="banner"
